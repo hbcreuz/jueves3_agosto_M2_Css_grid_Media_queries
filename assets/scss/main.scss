@@ -14,3 +14,7 @@ sass --watch assets/scss/main.scss:assets/css/style.css
 
 //base
 @import "base/reset";
+
+//pages
+@import "pages/grid_basico";
+@import "pages/mostly_fluid";
