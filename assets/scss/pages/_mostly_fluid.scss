@@ -44,7 +44,7 @@
     }
 
   }
-
+ 
   @include respond-to($bp-md){
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

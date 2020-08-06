@@ -93,4 +93,51 @@ sass --watch assets/scss/main.scss:assets/css/style.css
   }
 }
 
+.container-off-canvas {
+  display: grid;
+}
+.container-off-canvas .section1 {
+  display: none;
+}
+.container-off-canvas .section2 {
+  height: 100vh;
+  background-color: #57d657;
+}
+.container-off-canvas .section3 {
+  display: none;
+  background-color: #64B5F6;
+}
+@media (min-width: 576px) {
+  .container-off-canvas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .container-off-canvas .section2 {
+    background-color: #57d657;
+  }
+  .container-off-canvas .section3 {
+    display: initial;
+  }
+}
+@media (min-width: 768px) {
+  .container-off-canvas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .container-off-canvas .section1 {
+    display: initial;
+  }
+}
+@media (min-width: 992px) {
+  .container-off-canvas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin: 0 auto;
+  }
+  .container-off-canvas .section1 {
+    display: initial;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
