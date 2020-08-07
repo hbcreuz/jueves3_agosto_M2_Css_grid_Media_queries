@@ -243,6 +243,97 @@ sass --watch assets/scss/main.scss:assets/css/style.css
   grid-column: 1/4;
 }
 
+.responsive_image {
+  width: 100%;
+  height: auto;
+}
+
+.responsive-image-max {
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  background-image: url("http://lorempixel.com/300/200/");
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 576px) {
+  .header {
+    background-image: url("http://lorempixel.com/570/200/");
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    background-image: url("http://lorempixel.com/760/200/");
+  }
+}
+@media (min-width: 992px) {
+  .header {
+    background-image: url("http://lorempixel.com/990/200/");
+  }
+}
+@media (min-width: 1200px) {
+  .header {
+    background-image: url("http://lorempixel.com/1200/200/");
+  }
+}
+
+.header1 {
+  background-image: url("http://lorempixel.com/300/200/");
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+@media (min-width: 576px) {
+  .header1 {
+    background-image: url("http://lorempixel.com/570/200/");
+  }
+}
+@media (min-width: 768px) {
+  .header1 {
+    background-image: url("http://lorempixel.com/760/200/");
+  }
+}
+@media (min-width: 992px) {
+  .header1 {
+    background-image: url("http://lorempixel.com/990/200/");
+  }
+}
+@media (min-width: 1200px) {
+  .header1 {
+    background-image: url("http://lorempixel.com/1200/200/");
+  }
+}
+
+.header2 {
+  background-image: url("http://lorempixel.com/300/200/");
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media (min-width: 576px) {
+  .header2 {
+    background-image: url("http://lorempixel.com/570/200/");
+  }
+}
+@media (min-width: 768px) {
+  .header2 {
+    background-image: url("http://lorempixel.com/760/200/");
+  }
+}
+@media (min-width: 992px) {
+  .header2 {
+    background-image: url("http://lorempixel.com/990/200/");
+  }
+}
+@media (min-width: 1200px) {
+  .header2 {
+    background-image: url("http://lorempixel.com/1200/200/");
+  }
+}
+
 .container-mostly-fluid {
   display: grid;
   grid-template-rows: repeat(5, 100vh);
@@ -354,6 +445,10 @@ sass --watch assets/scss/main.scss:assets/css/style.css
   .container-off-canvas .section1 {
     display: initial;
   }
+}
+
+.title {
+  font-size: 3.125rem;
 }
 
 /*# sourceMappingURL=style.css.map */

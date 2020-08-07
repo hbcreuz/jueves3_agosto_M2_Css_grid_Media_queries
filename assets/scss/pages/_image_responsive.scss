@@ -1,0 +1,70 @@
+.responsive_image{
+  width: 100%;
+  height: auto;
+  
+}
+
+.responsive-image-max{
+  max-width: 100%;
+  height: auto;
+}
+
+.header{
+  background-image: url("http://lorempixel.com/300/200/");
+  height:200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  @include respond-to($bp-sm){
+    background-image: url("http://lorempixel.com/570/200/") ;
+  }
+  @include respond-to($bp-md){
+    background-image: url("http://lorempixel.com/760/200/") ;
+  }
+  @include respond-to($bp-lg){
+    background-image: url("http://lorempixel.com/990/200/") ;
+  }
+  @include respond-to($bp-xl){
+    background-image: url("http://lorempixel.com/1200/200/") ;
+  }
+}
+
+.header1{
+  background-image: url("http://lorempixel.com/300/200/");
+  height:200px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+  @include respond-to($bp-sm){
+    background-image: url("http://lorempixel.com/570/200/") ;
+  }
+  @include respond-to($bp-md){
+    background-image: url("http://lorempixel.com/760/200/") ;
+  }
+  @include respond-to($bp-lg){
+    background-image: url("http://lorempixel.com/990/200/") ;
+  }
+  @include respond-to($bp-xl){
+    background-image: url("http://lorempixel.com/1200/200/") ;
+  }
+}
+
+.header2{
+  background-image: url("http://lorempixel.com/300/200/");
+  height:200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+  @include respond-to($bp-sm){
+    background-image: url("http://lorempixel.com/570/200/") ;
+  }
+  @include respond-to($bp-md){
+    background-image: url("http://lorempixel.com/760/200/") ;
+  }
+  @include respond-to($bp-lg){
+    background-image: url("http://lorempixel.com/990/200/") ;
+  }
+  @include respond-to($bp-xl){
+    background-image: url("http://lorempixel.com/1200/200/") ;
+  }
+}
