@@ -123,7 +123,7 @@ sass --watch assets/scss/main.scss:assets/css/style.css
     grid-column: span 1;
   }
 }
-@media (min-width: 768px) and (min-width: 992px) {
+@media (min-width: 992px) {
   .col-lg-12 {
     grid-column: span 12;
   }
@@ -172,7 +172,7 @@ sass --watch assets/scss/main.scss:assets/css/style.css
     grid-column: span 1;
   }
 }
-@media (min-width: 768px) and (min-width: 1200px) {
+@media (min-width: 1200px) {
   .col-xl-12 {
     grid-column: span 12;
   }
@@ -344,17 +344,17 @@ sass --watch assets/scss/main.scss:assets/css/style.css
 }
 @media (min-width: 768px) {
   .section1 {
-    background-image: url("https://picsum.photos/id/684/760/200");
+    background-image: url("https://picsum.photos/id/684/760/300");
   }
 }
 @media (min-width: 992px) {
   .section1 {
-    background-image: url("https://picsum.photos/id/684/990/200");
+    background-image: url("https://picsum.photos/id/684/990/300");
   }
 }
 @media (min-width: 1200px) {
   .section1 {
-    background-image: url("https://picsum.photos/id/684/1200/200");
+    background-image: url("https://picsum.photos/id/684/1200/300");
   }
 }
 

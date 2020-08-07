@@ -91,6 +91,7 @@
   .col-md-1{
     grid-column: span 1;
   }
+}
 
   @include respond-to($bp-lg){
     .col-lg-12{
@@ -169,5 +170,5 @@
       grid-column: span 1;
     }
   }
-}
+
 
