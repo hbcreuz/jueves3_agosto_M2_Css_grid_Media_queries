@@ -1,0 +1,13 @@
+.contenedor{
+  font-size: 20px;
+}
+
+.parrafo{
+  // @include relative-converter(font-size,em,50,20);
+  // font-size: 3.125em;
+  font-size: 2em;
+}
+
+.span__parrafo{
+  font-size: 2rem;
+}

@@ -1,5 +1,10 @@
 @mixin respond-to($break-point){
   @media (min-width:$break-point){
-    @content
+    @content;
   }
+}
+
+@mixin relative-converter($property, $unit, $target, $context){
+  $result: ($target/$context);
+  #{$property}: $result +$unit;
 }

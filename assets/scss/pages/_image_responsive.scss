@@ -1,0 +1,35 @@
+.responsive-image{
+  width: 100%;
+  height: auto;
+}
+
+.responsive-image-max{
+  max-width: 100%;
+  height: auto;
+}
+
+.section1{
+  background-image: url("https://picsum.photos/id/684/300/200");
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @include respond-to($bp-sm){
+    background-image: url("https://picsum.photos/id/684/570/200");
+  }
+
+  @include respond-to($bp-md){
+    background-image:url("https://picsum.photos/id/684/760/300");
+
+  }
+
+  @include respond-to($bp-lg){
+    background-image:url("https://picsum.photos/id/684/990/300");
+
+  }
+
+  @include respond-to($bp-xl){
+    background-image:url("https://picsum.photos/id/684/1200/300");
+
+  }
+}
